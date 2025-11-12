@@ -90,18 +90,7 @@ export default function Projects() {
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </a>
-                  </Button>
-                  <Button
-                    size="sm"
-                    asChild
-                    className="rounded-md flex-1"
-                    data-testid={`button-demo-${project.title.toLowerCase().replace(/\s+/g, '-')}`}
-                  >
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
-                    </a>
-                  </Button>
+                  </Button>                l
                 </CardFooter>
               </Card>
             </motion.div>
